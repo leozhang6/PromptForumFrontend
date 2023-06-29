@@ -1,0 +1,6 @@
+.postcard-container {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid lightgray 1px;
+}

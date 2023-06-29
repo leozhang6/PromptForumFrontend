@@ -1,0 +1,52 @@
+.headerContainer {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50px;
+  position: relative;
+  top: 0;
+  left: 0px;
+  flex: none;
+  overflow: hidden;
+  overscroll-behavior: none;
+  display: flex;
+  align-items: center;
+  background-color: #1c2021;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+.homeButton {
+  height: 100%;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.homeButton:hover {
+  cursor: pointer;
+}
+
+.ai {
+  color: blueviolet;
+}
+
+.prompts {
+  color: white;
+}
+
+.buttonContainer {
+  background-color: none;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  gap: 30px;
+}
+
+.navButton {
+  color: white;
+}

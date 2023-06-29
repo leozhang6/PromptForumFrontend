@@ -1,0 +1,21 @@
+.originalPost {
+  height: 100px;
+  width: 100%;
+  background-color: green;
+  border-bottom: solid black 1px;
+}
+
+.contentContainer {
+  width: 70%;
+  min-width: 600px;
+  margin: 1% auto 1% 8%;
+}
+
+.postPageContainer {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  min-height: 100%;
+  background-color: aqua;
+  overflow: auto;
+}
