@@ -3,4 +3,14 @@
   width: 100%;
   background-color: white;
   border-bottom: solid lightgray 1px;
+  padding: 15px;
+}
+
+.post-title {
+  font-size: larger;
+  width: fit-content;
+}
+
+.post-title:hover {
+  cursor: pointer;
 }

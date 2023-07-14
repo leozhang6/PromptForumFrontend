@@ -6,7 +6,12 @@ import { Link } from "react-router-dom";
 export default function PostCard({ props }: { props: PostData }) {
   return (
     <div className="postcard-container">
-      <Link to={"post/" + props._id}>{props.postContent}</Link>
+      <div
+        className="post-title"
+        onClick={() => (window.location.href = "/post:" + props._id)}
+      >
+        {props.postTitle}
+      </div>
     </div>
   );
 }
