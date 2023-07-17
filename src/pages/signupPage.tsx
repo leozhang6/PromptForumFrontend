@@ -39,7 +39,7 @@ export default function SignupPage() {
           if (success) {
             console.log("successfully signed up");
             setTimeout(() => {
-              navigate("/");
+              window.location.href = "/";
             }, 1000);
           } else {
             console.log("failed to sign up");
@@ -95,6 +95,12 @@ export default function SignupPage() {
             </button>
           </div>
         </form>
+        <span
+          className="login-prompt"
+          onClick={() => (window.location.href = "/login")}
+        >
+          Already have an account? Click here to login.
+        </span>
       </div>
     </div>
   );

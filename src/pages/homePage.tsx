@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./styles/homeStyles.css";
 import PostCard from "../components/postCard";
 import { PostData } from "../database";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {
   const [postsData, setPostsData] = useState([]);

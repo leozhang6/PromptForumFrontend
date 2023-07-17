@@ -5,6 +5,7 @@ import Layout from "./components/layout";
 import PostPage from "./pages/postPage";
 import "./pages/styles/globals.css";
 import SignupPage from "./pages/signupPage";
+import LoginPage from "./pages/loginPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/post/:id" element={<PostPage />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </BrowserRouter>
     </Layout>

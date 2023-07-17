@@ -1,4 +1,4 @@
-.signup-container {
+.login-container {
   padding: 0px;
   margin: 0px;
   width: 100%;
@@ -7,7 +7,7 @@
   display: flex;
 }
 
-.signup-card {
+.login-card {
   padding: 40px;
   margin: auto;
   width: 40%;
@@ -22,7 +22,7 @@
   min-height: 650px;
 }
 
-.signup-header {
+.login-header {
   color: black;
   font-weight: normal;
 }
@@ -53,7 +53,7 @@
   padding: 20px;
 }
 
-.login-prompt {
+.new-prompt {
   text-align: center;
   padding-top: 30px;
 }
