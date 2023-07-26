@@ -50,3 +50,7 @@
 .navButton {
   color: white;
 }
+
+.navButton:hover {
+  cursor: pointer;
+}

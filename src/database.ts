@@ -4,7 +4,7 @@ export interface PostData {
   _id: ObjectId;
   postTitle: string;
   postContent: string;
-  likeCount: number;
+  upvoteCount: number;
   userId: ObjectId;
 }
 
@@ -19,4 +19,5 @@ export interface UserData {
   password: string;
   email: string;
   username: string;
+  likedPosts: Array<ObjectId>;
 }

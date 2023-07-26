@@ -12,7 +12,7 @@ export default function PageHeader() {
       if (!cookies.token) {
         setLoggedIn(false);
       } else {
-        console.log(cookies.token);
+        console.log("header page token" + cookies.token);
       }
       await fetch("http://localhost:3000/", {
         credentials: "include",
@@ -43,6 +43,7 @@ export default function PageHeader() {
 
   function handleLogout() {
     removeCookies("token", null);
+    setLoggedIn(false);
     window.location.href = "/login";
   }
 

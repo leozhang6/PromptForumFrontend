@@ -6,6 +6,7 @@ import PostPage from "./pages/postPage";
 import "./pages/styles/globals.css";
 import SignupPage from "./pages/signupPage";
 import LoginPage from "./pages/loginPage";
+import NewPromptPage from "./pages/newPromptPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/post/:id" element={<PostPage />} />
           <Route path="/signup" element={<SignupPage />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/newprompt" element={<NewPromptPage />} />
         </Routes>
       </BrowserRouter>
     </Layout>

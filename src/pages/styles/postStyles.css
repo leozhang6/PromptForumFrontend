@@ -1,8 +1,9 @@
 .originalPost {
-  height: 100px;
+  height: 400px;
   width: 100%;
-  background-color: green;
-  border-bottom: solid black 1px;
+  background-color: white;
+  border: solid black 1px;
+  padding: 15px;
 }
 
 .contentContainer {
@@ -16,6 +17,54 @@
   margin: 0px;
   width: 100%;
   min-height: 100%;
-  background-color: aqua;
+  background-color: white;
   overflow: auto;
+}
+
+.upvote-container {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.upvote-button {
+  background-color: white;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.upvote-button:hover {
+  cursor: pointer;
+}
+
+.upvote-count {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.upvote-button-liked {
+  background-color: white;
+  border: solid blueviolet;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.upvote-button-liked:hover {
+  cursor: pointer;
+}
+
+.upvote-count-liked {
+  color: blueviolet;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
